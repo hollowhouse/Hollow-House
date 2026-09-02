@@ -1,0 +1,40 @@
+HOLLOW HOUSE — PUBLICACIÓN GRATIS Y APARICIÓN EN GOOGLE
+
+IMPORTANTE:
+- La web ya quedó configurada con tu link oficial de itch.io:
+  https://hollow-house2026.itch.io/hollow-house
+- El sitio NO puede aparecer en Google hasta que esté publicado con una URL pública.
+
+OPCIÓN GRATIS RECOMENDADA: GITHUB PAGES
+1) Creá una cuenta en GitHub si no tenés.
+2) Creá un repositorio nuevo, por ejemplo: hollow-house-site
+3) Subí TODOS los archivos de esta carpeta.
+4) En GitHub entrá a:
+   Settings > Pages
+5) En "Build and deployment" elegí:
+   Source: Deploy from a branch
+   Branch: main / root
+6) Guardá.
+7) GitHub te va a dar una URL pública, algo como:
+   https://TUUSUARIO.github.io/hollow-house-site/
+
+CÓMO HACER QUE GOOGLE LA VEA
+1) Entrá a Google Search Console:
+   https://search.google.com/search-console/
+2) Añadí la URL pública de tu web.
+3) Usá la herramienta "Inspección de URLs".
+4) Pegá la URL principal y tocá "Solicitar indexación".
+5) Google puede tardar desde horas hasta varios días.
+
+IMPORTANTE SOBRE GOOGLE
+- Estar indexado NO garantiza salir primero al buscar "Hollow House".
+- Ayuda mucho que también enlaces esta web desde:
+  - tu itch.io
+  - YouTube
+  - redes sociales
+  - Discord
+  - foros
+
+CÓMO VERLA ANTES DE SUBIRLA
+- Abrí index.html con doble clic.
+
