@@ -1,179 +1,24 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hollow House: Hollow Creek | Juego de terror 2D (2026)</title>
-  <meta name="description" content="Hollow House: Hollow Creek es un juego indie de terror 2D de 2026, desarrollado con Godot. Acompaña a Alex y Sebas, explora la propiedad Hollow y sobrevive a la tormenta.">
-  <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="theme-color" content="#090b0e">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Hollow House: Hollow Creek — Entrar fue la parte fácil">
-  <meta property="og:description" content="Hollow House es el juego de terror 2D ambientado en Hollow Creek, protagonizado por Alex y Sebas. Explora la propiedad Hollow y descubre qué ocurrió.">
-  <meta property="og:image" content="https://hollowhouse.github.io/Hollow-House/hollow-house-banner.webp">
-  <meta property="og:url" content="https://hollowhouse.github.io/Hollow-House/">
-  <link rel="canonical" href="https://hollowhouse.github.io/Hollow-House/">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hollow House: Hollow Creek — Juego de terror 2D">
-  <meta name="twitter:description" content="Hollow Creek, Alex y Sebas. Entrar fue la parte fácil.">
-  <meta name="twitter:image" content="https://hollowhouse.github.io/Hollow-House/hollow-house-banner.webp">
-  <link rel="icon" href="favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "VideoGame",
-    "name": "Hollow House",
-    "alternateName": ["Hollow House: Hollow Creek", "Hollow House 2026"],
-    "description": "Juego indie de terror 2D de 2026 ambientado en Hollow Creek. Alex y Sebas investigan la propiedad Hollow durante una noche de tormenta.",
-    "genre": ["Horror", "Survival horror", "Adventure", "Puzzle"],
-    "gamePlatform": "Windows",
-    "operatingSystem": "Windows",
-    "applicationCategory": "Game",
-    "inLanguage": ["es", "en"],
-    "datePublished": "2026-08-30",
-    "creator": {"@type": "Organization", "name": "Hollow House"},
-    "image": "https://hollowhouse.github.io/Hollow-House/hollow-house-banner.webp",
-    "url": "https://hollowhouse.github.io/Hollow-House/",
-    "sameAs": ["https://hollow-house2026.itch.io/hollow-house"]
-  }
-  </script>
-</head>
-<body>
-  <div class="rain" aria-hidden="true"></div>
-  <header class="topbar" id="inicio">
-    <a class="brand" href="#inicio" aria-label="Hollow House, inicio">
-      <img src="favicon.png" alt="" width="40" height="40">
-      <span>HOLLOW HOUSE</span>
-    </a>
-    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-    <nav class="nav" aria-label="Navegación principal">
-      <a href="historia-hollow-house.html">Historia</a>
-      <a href="gameplay-hollow-house.html">El juego</a>
-      <a href="capturas-hollow-house.html">Galería</a>
-      <a href="descargar-hollow-house.html" class="nav-cta">Jugar</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <img class="hero-img" src="hollow-house-banner.webp" alt="Hollow House bajo una tormenta, con la propiedad Hollow iluminada en la noche">
-      <div class="hero-fade"></div>
-      <div class="hero-content">
-        <p class="eyebrow">HOLLOW CREEK · JUEGO DE TERROR 2D · 2026</p>
-        <h1 id="hero-title">Hollow House</h1>
-        <p class="tagline">Entrar fue la parte fácil.</p>
-        <p class="hero-copy">Juego indie de terror 2D desarrollado con Godot. Alex y Sebas entran en Hollow Creek buscando respuestas. Una casa aislada. Una tormenta. Un caso que nadie quiso recordar.</p>
-        <div class="hero-actions">
-          <a class="btn primary itch-link" href="#descargar">JUGAR / DESCARGAR</a>
-          <a class="btn ghost" href="#historia">DESCUBRIR LA HISTORIA</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section intro" id="historia">
-      <div class="section-kicker">EL CASO HOLLOW</div>
-      <div class="two-col">
-        <div>
-          <h2>Doce años después, las desapariciones comenzaron otra vez.</h2>
-        </div>
-        <div class="story-copy">
-          <p>Hace doce años, una serie de secuestros y asesinatos sacudió a <strong>Hollow Creek</strong>. El responsable nunca fue identificado y la investigación terminó archivada.</p>
-          <p>Ahora, tres nuevas desapariciones y dos vehículos abandonados vuelven a señalar el mismo lugar: <strong>la antigua propiedad Hollow</strong>.</p>
-          <p>Alex y su amigo Sebas entran durante una noche de tormenta buscando respuestas. La salida queda bloqueada, el teléfono pierde señal y alguien comienza a seguir cada uno de sus movimientos.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section game" id="juego">
-      <div class="section-kicker">SOBREVIVÍ A LA CASA</div>
-      <h2>La oscuridad no es lo único que te está mirando.</h2>
-      <div class="feature-grid">
-        <article class="feature"><span>01</span><h3>Exploración con linterna</h3><p>Recorre caminos, exteriores, habitaciones, pasillos y zonas ocultas con una visibilidad limitada.</p></article>
-        <article class="feature"><span>02</span><h3>Pistas y acertijos</h3><p>Reconstruye el caso Hollow, interactúa con objetos y encuentra la forma de avanzar sin saber qué te espera detrás de cada puerta.</p></article>
-        <article class="feature"><span>03</span><h3>Solo o con Sebas</h3><p>Viví la investigación con Alex y Sebas mientras la tormenta y la casa convierten cada paso en una amenaza.</p></article>
-        <article class="feature"><span>04</span><h3>Sonido y atmósfera</h3><p>La lluvia, los silencios y los ruidos de la casa convierten cada sector en una amenaza. A veces escuchar bien puede salvarte.</p></article>
-      </div>
-    </section>
-
-    <section class="section quote-strip" aria-label="Frase de Hollow House">
-      <p>“Si escuchás algo detrás de ti, quizá ya sea demasiado tarde.”</p>
-    </section>
-
-    <section class="section gallery" id="galeria">
-      <div class="section-kicker">GALERÍA</div>
-      <div class="gallery-head">
-        <h2>Capturas reales del juego y material del caso Hollow.</h2>
-        <p>Estas imágenes fueron elegidas para mostrar mejor la atmósfera, la exploración y el inicio de la historia.</p>
-      </div>
-      <div class="gallery-grid gallery-grid-6">
-        <figure class="shot shot-wide">
-          <img src="gameplay-yard.webp" alt="Alex y Sebas frente a la propiedad Hollow durante la noche" loading="lazy">
-          <figcaption>Llegada a la propiedad Hollow</figcaption>
-        </figure>
-        <figure class="shot">
-          <img src="gameplay-road.webp" alt="Alex y Sebas avanzando por la carretera durante la tormenta" loading="lazy">
-          <figcaption>El comienzo del camino</figcaption>
-        </figure>
-                <figure class="shot">
-          <img src="gameplay-house.webp" alt="Exploración del interior de la mansión con linterna" loading="lazy">
-          <figcaption>Exploración en la oscuridad</figcaption>
-        </figure>
-        <figure class="shot">
-          <img src="menu.webp" alt="Menú principal de Hollow House" loading="lazy">
-          <figcaption>Menú principal</figcaption>
-        </figure>
-        <figure class="shot paper-shot">
-          <img src="gazette.webp" alt="Hollow Creek Gazette informando sobre nuevas desapariciones" loading="lazy">
-          <figcaption>Hollow Creek Gazette</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="conoce-hollow-house">
-      <div class="section-kicker">CONOCÉ HOLLOW HOUSE: HOLLOW CREEK</div>
-      <h2 id="conoce-hollow-house">La historia, el gameplay y las capturas del juego.</h2>
-      <div class="feature-grid">
-        <article class="feature"><span>01</span><h3>Historia</h3><p>Conocé Hollow Creek, el caso Hollow, Alex y Sebas sin spoilers importantes.</p><p><a href="historia-hollow-house.html">Leer la historia →</a></p></article>
-        <article class="feature"><span>02</span><h3>Gameplay</h3><p>Cómo se juega Hollow House: exploración, linterna, objetivos, pistas y supervivencia.</p><p><a href="gameplay-hollow-house.html">Ver gameplay →</a></p></article>
-        <article class="feature"><span>03</span><h3>Capturas reales</h3><p>Imágenes reales del juego, la propiedad Hollow y el Hollow Creek Gazette.</p><p><a href="capturas-hollow-house.html">Ver capturas →</a></p></article>
-        <article class="feature"><span>04</span><h3>Descargar</h3><p>Accedé a la página oficial de Hollow House en itch.io para Windows.</p><p><a href="descargar-hollow-house.html">Ir a descarga →</a></p></article>
-      </div>
-    </section>
-
-    <section class="section lore">
-      <div class="lore-card">
-        <div class="lore-copy">
-          <div class="section-kicker">HOLLOW CREEK GAZETTE</div>
-          <h2>Un expediente que nunca cerró.</h2>
-          <p>Cuatro desapariciones. Vehículos abandonados. Una propiedad clausurada. Años después, las coincidencias vuelven a aparecer.</p>
-          <p class="red-line">LA ZONA VUELVE A ESTAR BAJO VIGILANCIA.</p>
-        </div>
-        <img class="paper-media" src="gazette.webp" alt="Recorte del periódico Hollow Creek Gazette" loading="lazy">
-      </div>
-    </section>
-
-    <section class="section download" id="descargar">
-      <div class="download-bg" aria-hidden="true"></div>
-      <div class="download-content">
-        <div class="section-kicker">¿VAS A ENTRAR?</div>
-        <h2>Hollow House</h2>
-        <p>Disponible en itch.io. Entrá a la ficha oficial del juego, descargalo y seguí el desarrollo.</p>
-        <a class="btn primary itch-link" href="#" id="itch-main">IR A ITCH.IO</a>
-        <p class="micro" id="itch-status">Enlace listo para usar.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div><strong>HOLLOW HOUSE</strong><span>© <span id="year"></span></span></div>
-    <p><a href="historia-hollow-house.html">Historia</a> · <a href="gameplay-hollow-house.html">Gameplay</a> · <a href="capturas-hollow-house.html">Capturas</a> · <a href="descargar-hollow-house.html">Descargar</a><br>Juego indie de terror 2D desarrollado con Godot. Hollow Creek te está esperando.</p>
-  </footer>
-
-  <script src="site-config.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hollow House: Hollow Creek | Juego de terror 2D</title>
+<meta name="description" content="Hollow House: Hollow Creek es un juego indie de terror 2D desarrollado con Godot. Alex y Sebas investigan una casa aislada durante una tormenta mientras un antiguo caso vuelve a abrirse.">
+<meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://hollowhouse.github.io/Hollow-House/">
+<meta property="og:type" content="website"><meta property="og:title" content="Hollow House: Hollow Creek — Entrar fue la parte fácil"><meta property="og:description" content="Explora la propiedad Hollow, reconstruye el caso de Hollow Creek y sobrevive a una noche de tormenta."><meta property="og:image" content="https://hollowhouse.github.io/Hollow-House/hollow-house-banner.webp"><meta property="og:url" content="https://hollowhouse.github.io/Hollow-House/">
+<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#06080a"><link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","name":"Hollow House","alternateName":"Hollow House: Hollow Creek","description":"Juego indie de terror 2D ambientado en Hollow Creek.","genre":["Horror","Survival horror","Adventure","Puzzle"],"gamePlatform":"Windows","inLanguage":["es","en"],"url":"https://hollowhouse.github.io/Hollow-House/","image":"https://hollowhouse.github.io/Hollow-House/hollow-house-banner.webp","sameAs":["https://hollow-house2026.itch.io/hollow-house"]}</script>
+</head><body>
+<div class="noise"></div><div class="rain"></div><div class="progress"></div>
+<header class="topbar"><div class="topbar-inner"><a class="brand" href="#inicio"><img src="favicon.png" alt=""><span>HOLLOW HOUSE</span></a><button class="nav-toggle" aria-label="Abrir menú">☰</button><nav class="nav"><a href="#caso">Historia</a><a href="#experiencia">El juego</a><a href="#galeria">Galería</a><a href="historia-hollow-house.html">Hollow Creek</a><a class="play" href="#descargar">Jugar</a></nav></div></header>
+<main>
+<section class="hero" id="inicio"><div class="hero-media"><img src="hollow-house-banner.webp" alt="La propiedad Hollow durante una tormenta"><div class="hero-glow"></div></div><div class="wrap hero-content"><p class="eyebrow">JUEGO INDIE DE TERROR 2D · HOLLOW CREEK</p><h1>Hollow House<small>HOLLOW CREEK</small></h1><p class="tagline">Entrar fue la parte fácil.</p><p class="hero-copy">Doce años después de que una serie de desapariciones quedara sin resolver, Alex y Sebas entran en la antigua propiedad Hollow. La tormenta corta el camino de regreso. Algo dentro de la casa ya sabe que llegaron.</p><div class="actions"><a class="btn primary itch-link" href="#">Jugar en itch.io →</a><a class="btn ghost" href="#caso">Abrir el expediente</a></div></div><div class="scroll-note">Descender</div></section>
+<section class="section" id="caso"><div class="wrap case-grid"><div class="case-copy reveal"><p class="kicker">EL CASO HOLLOW</p><h2>Un expediente que nunca cerró.</h2><p>En 2014, <strong>cuatro personas desaparecieron</strong> en caminos cercanos a la propiedad Hollow. No hubo sospechosos. La investigación se archivó.</p><p>Doce años después, tres nuevas desapariciones y vehículos abandonados vuelven a señalar el mismo lugar. Hollow Creek empieza a mirar otra vez hacia la casa que había decidido olvidar.</p><div class="actions"><a class="btn ghost" href="historia-hollow-house.html">Leer la historia completa</a></div></div><div class="case-paper reveal"><img src="gazette.webp" alt="Hollow Creek Gazette: tres desapariciones reabren el caso Hollow"></div></div></section>
+<section class="feature-band" id="experiencia"><div class="wrap"><p class="kicker reveal">LA EXPERIENCIA</p><h2 class="reveal">La tensión está en lo que no podés ver.</h2><div class="feature-grid stagger"><article class="feature"><span class="n">01</span><h3>Linterna</h3><p>La oscuridad limita el mapa a unos pocos metros. Cada habitación se revela de a poco.</p></article><article class="feature"><span class="n">02</span><h3>Investigación</h3><p>Objetos, habitaciones y pistas reconstruyen lo ocurrido en Hollow Creek.</p></article><article class="feature"><span class="n">03</span><h3>Alex y Sebas</h3><p>La historia no sucede en silencio. Los personajes reaccionan, hablan y avanzan juntos hacia algo que no entienden.</p></article><article class="feature"><span class="n">04</span><h3>Atmósfera</h3><p>Tormenta, silencios, pasos y sonidos lejanos hacen que escuchar sea tan importante como mirar.</p></article></div></div></section>
+<section class="cinema" id="galeria"><div class="wrap" style="width:min(var(--max),100%);margin-bottom:30px"><p class="kicker reveal">CAPTURAS REALES</p><h2 class="reveal">Hollow Creek después de medianoche.</h2></div><div class="cinema-grid stagger"><figure class="frame"><img data-lightbox src="gameplay-yard.webp" alt="Alex y Sebas frente a la propiedad Hollow"><figcaption class="frame-label"><b>La propiedad Hollow</b><span>Exterior · noche</span></figcaption></figure><figure class="frame"><img data-lightbox src="gameplay-road.webp" alt="Alex y Sebas avanzando por la carretera"><figcaption class="frame-label"><b>El camino</b><span>Antes de entrar</span></figcaption></figure><figure class="frame"><img data-lightbox src="gameplay-house.webp" alt="Exploración dentro de Hollow House"><figcaption class="frame-label"><b>Dentro de la casa</b><span>Linterna · exploración</span></figcaption></figure></div></section>
+<section class="quote"><p class="reveal">“Si escuchás algo detrás de ti, <em>quizá ya sea demasiado tarde.</em>”</p></section>
+<section class="section section-line"><div class="wrap timeline-wrap"><div class="reveal"><p class="kicker">CRONOLOGÍA</p><h2>Doce años de silencio.</h2><p class="lead">La historia de Hollow House no comienza cuando Alex cruza la puerta. Empieza mucho antes.</p></div><div class="timeline reveal"><article class="timeline-item"><b>2014</b><h3>La propiedad es clausurada.</h3><p>Cuatro desapariciones. La investigación no encuentra un responsable.</p></article><article class="timeline-item"><b>2026</b><h3>El patrón vuelve.</h3><p>Tres personas desaparecen en pocas semanas. Aparecen vehículos abandonados.</p></article><article class="timeline-item"><b>ESA NOCHE</b><h3>Alex y Sebas entran.</h3><p>La tormenta empeora. La salida deja de ser una certeza.</p></article></div></div></section>
+<section class="download" id="descargar"><div class="download-bg"></div><div class="download-content reveal"><p class="kicker">¿VAS A ENTRAR?</p><h2>Hollow House</h2><p>Jugá la versión publicada y seguí el desarrollo desde la página oficial de itch.io.</p><a class="btn primary itch-link" href="#">Ir a itch.io →</a><p class="store-note">Hollow House · Hollow Creek · 2026</p></div></section>
+</main>
+<footer><div class="wrap footer-inner"><div>© <span id="year"></span> Hollow House</div><div class="footer-links"><a href="historia-hollow-house.html">Historia</a><a href="gameplay-hollow-house.html">Gameplay</a><a href="capturas-hollow-house.html">Capturas</a><a href="descargar-hollow-house.html">Descargar</a></div></div></footer>
+<div class="lightbox"><button aria-label="Cerrar">×</button><img alt=""></div><script src="site-config.js"></script><script src="script.js"></script>
+</body></html>
