@@ -1,0 +1,17 @@
+SUBIR ESTA ACTUALIZACION SEO
+
+En GitHub > Hollow-House > Code > Add file > Upload files:
+Subi TODOS los archivos que hay en esta carpeta.
+
+Los que ya existen (index.html, robots.txt, sitemap.xml) se reemplazan.
+Los nuevos se agregan.
+NO borres las imagenes, styles.css, script.js ni site-config.js que ya estan en GitHub.
+
+Despues de Commit changes, espera 1-3 minutos y abre:
+https://hollowhouse.github.io/Hollow-House/
+
+Comproba tambien estas paginas:
+/historia-hollow-house.html
+/gameplay-hollow-house.html
+/capturas-hollow-house.html
+/descargar-hollow-house.html
