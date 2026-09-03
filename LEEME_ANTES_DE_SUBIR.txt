@@ -1,0 +1,26 @@
+HOLLOW HOUSE — ACTUALIZACIÓN LORE + INFORMACIÓN DEL JUEGO
+
+Esta actualización NO incluye imágenes nuevas. Reutiliza las imágenes que ya están en la raíz del repositorio GitHub.
+
+SUBIDA:
+1. Entrá al repositorio Hollow-House en GitHub.
+2. Code > Add file > Upload files.
+3. Abrí esta carpeta y seleccioná TODOS los archivos que contiene.
+4. Arrastralos a GitHub.
+5. Tocá Commit changes.
+6. Esperá 1–2 minutos y recargá https://hollowhouse.github.io/Hollow-House/ con Ctrl+F5.
+
+ARCHIVOS PRINCIPALES:
+- index.html
+- historia-hollow-house.html
+- gameplay-hollow-house.html
+- capturas-hollow-house.html
+- descargar-hollow-house.html
+- styles.css
+- script.js
+- site-config.js
+- robots.txt
+- sitemap.xml
+- sitemap.txt
+
+Las imágenes existentes (gazette.webp, gameplay-yard.webp, etc.) deben permanecer en la raíz del repositorio.

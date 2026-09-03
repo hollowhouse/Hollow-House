@@ -1,24 +1,198 @@
-<!doctype html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hollow House: Hollow Creek | Juego de terror 2D</title>
-<meta name="description" content="Hollow House: Hollow Creek es un juego indie de terror 2D desarrollado con Godot. Alex y Sebas investigan una casa aislada durante una tormenta mientras un antiguo caso vuelve a abrirse.">
-<meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://hollowhouse.github.io/Hollow-House/">
-<meta property="og:type" content="website"><meta property="og:title" content="Hollow House: Hollow Creek — Entrar fue la parte fácil"><meta property="og:description" content="Explora la propiedad Hollow, reconstruye el caso de Hollow Creek y sobrevive a una noche de tormenta."><meta property="og:image" content="https://hollowhouse.github.io/Hollow-House/hollow-house-banner.webp"><meta property="og:url" content="https://hollowhouse.github.io/Hollow-House/">
-<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#06080a"><link rel="icon" href="favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","name":"Hollow House","alternateName":"Hollow House: Hollow Creek","description":"Juego indie de terror 2D ambientado en Hollow Creek.","genre":["Horror","Survival horror","Adventure","Puzzle"],"gamePlatform":"Windows","inLanguage":["es","en"],"url":"https://hollowhouse.github.io/Hollow-House/","image":"https://hollowhouse.github.io/Hollow-House/hollow-house-banner.webp","sameAs":["https://hollow-house2026.itch.io/hollow-house"]}</script>
-</head><body>
-<div class="noise"></div><div class="rain"></div><div class="progress"></div>
-<header class="topbar"><div class="topbar-inner"><a class="brand" href="#inicio"><img src="favicon.png" alt=""><span>HOLLOW HOUSE</span></a><button class="nav-toggle" aria-label="Abrir menú">☰</button><nav class="nav"><a href="#caso">Historia</a><a href="#experiencia">El juego</a><a href="#galeria">Galería</a><a href="historia-hollow-house.html">Hollow Creek</a><a class="play" href="#descargar">Jugar</a></nav></div></header>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hollow House: Hollow Creek | Terror 2D cooperativo</title>
+<meta name="description" content="Sitio oficial de Hollow House: Hollow Creek, juego indie de terror 2D para Windows. Descubrí el caso Hollow, la historia de Alex y Sebas, controles, multijugador de 1 a 4 jugadores y capturas reales.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://hollowhouse.github.io/Hollow-House/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hollow House: Hollow Creek — Entrar fue la parte fácil">
+<meta property="og:description" content="Una ciudad marcada por desapariciones. Una propiedad clausurada. Alex y Sebas entran durante una tormenta y el caso vuelve a empezar.">
+<meta property="og:image" content="https://hollowhouse.github.io/Hollow-House/hollow-house-banner.webp">
+<meta property="og:url" content="https://hollowhouse.github.io/Hollow-House/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#06080a">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"VideoGame",
+  "name":"Hollow House",
+  "alternateName":"Hollow House: Hollow Creek",
+  "description":"Juego indie de terror 2D ambientado en Hollow Creek. Explora una propiedad aislada, reconstruye un caso de desapariciones y sobrevive a una noche de tormenta.",
+  "genre":["Horror","Survival horror","Adventure","Puzzle"],
+  "gamePlatform":"Windows",
+  "numberOfPlayers":"1-4",
+  "inLanguage":["es-419","en"],
+  "url":"https://hollowhouse.github.io/Hollow-House/",
+  "image":"https://hollowhouse.github.io/Hollow-House/hollow-house-banner.webp",
+  "sameAs":["https://hollow-house2026.itch.io/hollow-house"]
+}
+</script>
+</head>
+<body>
+<div class="noise" aria-hidden="true"></div><div class="rain" aria-hidden="true"></div><div class="progress" aria-hidden="true"></div>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#inicio"><img src="favicon.png" alt=""><span>HOLLOW HOUSE</span></a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#caso">El caso</a><a href="#hollow-creek">Hollow Creek</a><a href="#protagonistas">Personajes</a><a href="#juego">El juego</a><a href="#multijugador">Multijugador</a><a href="#galeria">Galería</a><a class="play" href="#descargar">Jugar</a>
+    </nav>
+  </div>
+</header>
 <main>
-<section class="hero" id="inicio"><div class="hero-media"><img src="hollow-house-banner.webp" alt="La propiedad Hollow durante una tormenta"><div class="hero-glow"></div></div><div class="wrap hero-content"><p class="eyebrow">JUEGO INDIE DE TERROR 2D · HOLLOW CREEK</p><h1>Hollow House<small>HOLLOW CREEK</small></h1><p class="tagline">Entrar fue la parte fácil.</p><p class="hero-copy">Doce años después de que una serie de desapariciones quedara sin resolver, Alex y Sebas entran en la antigua propiedad Hollow. La tormenta corta el camino de regreso. Algo dentro de la casa ya sabe que llegaron.</p><div class="actions"><a class="btn primary itch-link" href="#">Jugar en itch.io →</a><a class="btn ghost" href="#caso">Abrir el expediente</a></div></div><div class="scroll-note">Descender</div></section>
-<section class="section" id="caso"><div class="wrap case-grid"><div class="case-copy reveal"><p class="kicker">EL CASO HOLLOW</p><h2>Un expediente que nunca cerró.</h2><p>En 2014, <strong>cuatro personas desaparecieron</strong> en caminos cercanos a la propiedad Hollow. No hubo sospechosos. La investigación se archivó.</p><p>Doce años después, tres nuevas desapariciones y vehículos abandonados vuelven a señalar el mismo lugar. Hollow Creek empieza a mirar otra vez hacia la casa que había decidido olvidar.</p><div class="actions"><a class="btn ghost" href="historia-hollow-house.html">Leer la historia completa</a></div></div><div class="case-paper reveal"><img src="gazette.webp" alt="Hollow Creek Gazette: tres desapariciones reabren el caso Hollow"></div></div></section>
-<section class="feature-band" id="experiencia"><div class="wrap"><p class="kicker reveal">LA EXPERIENCIA</p><h2 class="reveal">La tensión está en lo que no podés ver.</h2><div class="feature-grid stagger"><article class="feature"><span class="n">01</span><h3>Linterna</h3><p>La oscuridad limita el mapa a unos pocos metros. Cada habitación se revela de a poco.</p></article><article class="feature"><span class="n">02</span><h3>Investigación</h3><p>Objetos, habitaciones y pistas reconstruyen lo ocurrido en Hollow Creek.</p></article><article class="feature"><span class="n">03</span><h3>Alex y Sebas</h3><p>La historia no sucede en silencio. Los personajes reaccionan, hablan y avanzan juntos hacia algo que no entienden.</p></article><article class="feature"><span class="n">04</span><h3>Atmósfera</h3><p>Tormenta, silencios, pasos y sonidos lejanos hacen que escuchar sea tan importante como mirar.</p></article></div></div></section>
-<section class="cinema" id="galeria"><div class="wrap" style="width:min(var(--max),100%);margin-bottom:30px"><p class="kicker reveal">CAPTURAS REALES</p><h2 class="reveal">Hollow Creek después de medianoche.</h2></div><div class="cinema-grid stagger"><figure class="frame"><img data-lightbox src="gameplay-yard.webp" alt="Alex y Sebas frente a la propiedad Hollow"><figcaption class="frame-label"><b>La propiedad Hollow</b><span>Exterior · noche</span></figcaption></figure><figure class="frame"><img data-lightbox src="gameplay-road.webp" alt="Alex y Sebas avanzando por la carretera"><figcaption class="frame-label"><b>El camino</b><span>Antes de entrar</span></figcaption></figure><figure class="frame"><img data-lightbox src="gameplay-house.webp" alt="Exploración dentro de Hollow House"><figcaption class="frame-label"><b>Dentro de la casa</b><span>Linterna · exploración</span></figcaption></figure></div></section>
-<section class="quote"><p class="reveal">“Si escuchás algo detrás de ti, <em>quizá ya sea demasiado tarde.</em>”</p></section>
-<section class="section section-line"><div class="wrap timeline-wrap"><div class="reveal"><p class="kicker">CRONOLOGÍA</p><h2>Doce años de silencio.</h2><p class="lead">La historia de Hollow House no comienza cuando Alex cruza la puerta. Empieza mucho antes.</p></div><div class="timeline reveal"><article class="timeline-item"><b>2014</b><h3>La propiedad es clausurada.</h3><p>Cuatro desapariciones. La investigación no encuentra un responsable.</p></article><article class="timeline-item"><b>2026</b><h3>El patrón vuelve.</h3><p>Tres personas desaparecen en pocas semanas. Aparecen vehículos abandonados.</p></article><article class="timeline-item"><b>ESA NOCHE</b><h3>Alex y Sebas entran.</h3><p>La tormenta empeora. La salida deja de ser una certeza.</p></article></div></div></section>
-<section class="download" id="descargar"><div class="download-bg"></div><div class="download-content reveal"><p class="kicker">¿VAS A ENTRAR?</p><h2>Hollow House</h2><p>Jugá la versión publicada y seguí el desarrollo desde la página oficial de itch.io.</p><a class="btn primary itch-link" href="#">Ir a itch.io →</a><p class="store-note">Hollow House · Hollow Creek · 2026</p></div></section>
+<section class="hero" id="inicio">
+  <div class="hero-media"><img src="hollow-house-banner.webp" alt="La propiedad Hollow durante una tormenta"><div class="hero-glow"></div></div>
+  <div class="wrap hero-content">
+    <p class="eyebrow">TERROR 2D · HOLLOW CREEK · 1–4 JUGADORES</p>
+    <h1>Hollow House<small>HOLLOW CREEK</small></h1>
+    <p class="tagline">Entrar fue la parte fácil.</p>
+    <p class="hero-copy">Hollow Creek aprendió a vivir evitando una casa. Doce años después de los primeros asesinatos y desapariciones, el patrón vuelve. Alex y Sebas siguen el rastro hasta la antigua propiedad Hollow durante una noche de tormenta. Cuando intentan regresar, la salida ya no parece estar donde la dejaron.</p>
+    <div class="actions"><a class="btn primary itch-link" href="#">Jugar en itch.io →</a><a class="btn ghost" href="#caso">Abrir el expediente</a></div>
+  </div>
+  <div class="scroll-note">Expediente 18.472</div>
+</section>
+
+<section class="case-strip">
+  <div class="wrap case-strip-grid">
+    <div><span>CASO</span><b>HC-14-04</b></div><div><span>PRIMERA OLA</span><b>2014</b></div><div><span>REAPERTURA</span><b>2026</b></div><div><span>ZONA</span><b>North Road</b></div><div><span>ESTADO</span><b class="danger">ABIERTO</b></div>
+  </div>
+</section>
+
+<section class="section" id="caso">
+  <div class="wrap case-grid">
+    <div class="case-copy reveal">
+      <p class="kicker">EL CASO HOLLOW</p>
+      <h2>La investigación que Hollow Creek prefirió olvidar.</h2>
+      <p>Entre 2013 y 2014, una secuencia de secuestros, homicidios y desapariciones cambió para siempre la parte norte de Hollow Creek. Los primeros casos parecían aislados: un vehículo vacío, una llamada que terminaba de golpe, una persona que no regresaba a casa. Después apareció un patrón.</p>
+      <p>Cuatro desapariciones ocurridas en 2014 terminaron conectadas a la misma zona rural. La policía registró la propiedad Hollow y encontró <strong>fotografías, sogas, herramientas y objetos que no pertenecían a la familia que había vivido allí</strong>. Nunca hubo un sospechoso formal. Los crímenes cesaron tan abruptamente como habían comenzado y el expediente fue archivado.</p>
+      <p>En 2026, tres personas desaparecen en apenas cuatro semanas. Dos vehículos aparecen abandonados a menos de un kilómetro de la propiedad clausurada. Ninguno muestra señales de choque. El lugar vuelve a estar bajo vigilancia.</p>
+      <div class="actions"><a class="btn ghost" href="historia-hollow-house.html">Leer el expediente completo</a></div>
+    </div>
+    <div class="case-paper reveal"><img src="gazette.webp" alt="Hollow Creek Gazette: tres desapariciones reabren el caso Hollow"></div>
+  </div>
+</section>
+
+<section class="records section-line">
+  <div class="wrap">
+    <div class="section-heading reveal"><div><p class="kicker">ARCHIVO DE VÍCTIMAS</p><h2>Los nombres que todavía se recuerdan.</h2></div><p>La policía nunca confirmó públicamente que todos los casos fueran obra de una sola persona. En Hollow Creek, casi nadie cree que sea una coincidencia.</p></div>
+    <div class="records-grid stagger">
+      <article class="record missing"><div class="stamp">DESAPARECIDO</div><span>2014 · 03:12</span><h3>Daniel Mercer</h3><p>28 años. Mecánico. Su camioneta apareció abierta en North Road, con las llaves todavía en el contacto. Nunca se encontró su teléfono.</p><small>ÚLTIMO AVISTAMIENTO: estación de servicio norte</small></article>
+      <article class="record homicide"><div class="stamp">HOMICIDIO</div><span>2014 · 04:08</span><h3>Rachel Ward</h3><p>22 años. Estudiante. Hallada fuera del corredor rural. El informe inicial habló de un ataque aislado; meses después, evidencia del caso Hollow obligó a revisar esa conclusión.</p><small>EXPEDIENTE RECLASIFICADO</small></article>
+      <article class="record missing"><div class="stamp">DESAPARECIDO</div><span>2014 · 05:19</span><h3>Samuel Price</h3><p>46 años. Electricista del condado. Había sido enviado a revisar una línea caída cerca de la propiedad. Su vehículo de servicio apareció al día siguiente.</p><small>ÚLTIMA RADIO: 21:47</small></article>
+      <article class="record missing"><div class="stamp">DESAPARECIDO</div><span>2014 · 06:02</span><h3>Elena Ruiz</h3><p>31 años. Fotógrafa independiente. Había estado documentando casas abandonadas de Hollow Creek. Su cámara nunca fue recuperada.</p><small>ÚLTIMA UBICACIÓN CONOCIDA: corredor norte</small></article>
+    </div>
+    <p class="archive-note reveal">Los nombres y detalles del archivo forman parte del universo narrativo de Hollow House. El expediente de 2014 continúa abierto dentro de la historia del juego.</p>
+  </div>
+</section>
+
+<section class="town" id="hollow-creek">
+  <div class="town-bg"></div>
+  <div class="wrap town-grid">
+    <div class="reveal"><p class="kicker">HOLLOW CREEK</p><h2>Una ciudad que aprendió a mirar hacia otro lado.</h2><p class="lead">Los asesinatos no destruyeron Hollow Creek de una noche a la mañana. Lo hicieron lentamente: cambiaron horarios, rutas, conversaciones y la forma en que una comunidad se relaciona con su propio pasado.</p></div>
+    <div class="town-impact stagger">
+      <article><b>01</b><h3>North Road quedó vacía al anochecer.</h3><p>Los residentes empezaron a usar rutas más largas para evitar la zona. Los conductores dejaron de detenerse por averías y los comercios cercanos redujeron sus horarios.</p></article>
+      <article><b>02</b><h3>El caso se convirtió en una herida pública.</h3><p>Familias de víctimas exigieron respuestas durante años. La policía insistió en que no había evidencia suficiente para vincular todos los hechos. La ciudad dejó de confiar en esa explicación.</p></article>
+      <article><b>03</b><h3>La casa pasó de lugar real a leyenda.</h3><p>Adolescentes contaban historias sobre luces encendidas en una propiedad sin electricidad. Vecinos juraban escuchar motores, golpes y una sierra a horas en que no debía haber nadie allí.</p></article>
+      <article><b>04</b><h3>El silencio se volvió costumbre.</h3><p>Con el tiempo, Hollow Creek dejó de hablar del tema en público. Los recortes del Gazette desaparecieron de bares y comercios. La propiedad quedó cerrada, pero nunca dejó de estar presente.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section protagonists" id="protagonistas">
+  <div class="wrap">
+    <div class="section-heading reveal"><div><p class="kicker">LOS PROTAGONISTAS</p><h2>Alex y Sebas no entran como héroes.</h2></div><p>Entran porque creen que todavía pueden encontrar respuestas. La casa se encarga de convertir esa curiosidad en una cuestión de supervivencia.</p></div>
+    <div class="character-scene reveal"><img src="gameplay-yard.webp" alt="Alex y Sebas frente a la propiedad Hollow"><div class="character-scene-copy"><b>ESA NOCHE · 2026</b><p>La tormenta empeora mientras se acercan a la propiedad. Lo que parecía una investigación improvisada termina aislándolos del resto de Hollow Creek.</p></div></div>
+    <div class="character-grid stagger">
+      <article class="character"><div class="character-id">A</div><div><span>PROTAGONISTA</span><h3>Alex</h3><p>Observador, persistente y más dispuesto a seguir una pista de lo que debería. Alex conecta los nuevos casos con el expediente de 2014 y convence a Sebas de acercarse a la propiedad. Durante la noche, pasa de buscar pruebas a intentar entender las reglas de un lugar que parece anticiparse a cada movimiento.</p><p class="character-note">Su herramienta principal no es un arma: es una linterna y la capacidad de seguir avanzando cuando la casa deja de tener sentido.</p></div></article>
+      <article class="character"><div class="character-id">S</div><div><span>COMPAÑERO</span><h3>Sebas</h3><p>Sebas llega como el más escéptico de los dos. Usa el humor para bajar la tensión y, al principio, trata cada rumor de Hollow Creek como una historia exagerada. Pero también es quien mantiene a Alex conectado con la realidad cuando las cosas empiezan a salirse de control.</p><p class="character-note">Su presencia vuelve personal cada decisión: investigar una habitación más o salir mientras todavía existe una oportunidad.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="feature-band" id="juego">
+  <div class="wrap">
+    <p class="kicker reveal">LA EXPERIENCIA</p><h2 class="reveal">Terror construido alrededor de la incertidumbre.</h2>
+    <div class="feature-grid stagger">
+      <article class="feature"><span class="n">01</span><h3>Exploración con linterna</h3><p>La oscuridad limita lo que podés leer de una habitación. El mouse orienta la luz y cada puerta revela el escenario de a poco.</p></article>
+      <article class="feature"><span class="n">02</span><h3>Pistas y objetivos</h3><p>Objetos, notas, habitaciones cerradas y eventos reconstruyen lo ocurrido mientras el HUD marca objetivos narrativos.</p></article>
+      <article class="feature"><span class="n">03</span><h3>Huir y esconderse</h3><p>No todo encuentro está diseñado para enfrentarse. Correr puede salvarte, pero también puede revelar tu posición.</p></article>
+      <article class="feature"><span class="n">04</span><h3>Sonido como amenaza</h3><p>Pasos, golpes, puertas, lluvia y silencios dan información. Escuchar es parte del gameplay, no solamente de la ambientación.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section specs section-line">
+  <div class="wrap specs-grid">
+    <div class="reveal"><p class="kicker">INFORMACIÓN ACTUAL</p><h2>Cómo se juega hoy.</h2><p class="lead">La versión publicada actualmente está enfocada en PC y utiliza teclado y mouse. El proyecto está desarrollado en Godot y continúa evolucionando.</p></div>
+    <div class="spec-cards stagger">
+      <article><span>PLATAFORMA</span><b>Windows PC</b><p>Es la plataforma disponible actualmente.</p></article>
+      <article><span>JUGADORES</span><b>1–4</b><p>Partida individual y multijugador.</p></article>
+      <article><span>IDIOMAS</span><b>Español · English</b><p>Español Latinoamérica e inglés.</p></article>
+      <article><span>ENTRADAS</span><b>Teclado + mouse</b><p>Controles pensados actualmente para PC.</p></article>
+      <article><span>ACCESIBILIDAD</span><b>Subtítulos</b><p>Los diálogos y eventos narrativos cuentan con texto.</p></article>
+      <article><span>MOTOR</span><b>Godot</b><p>Proyecto desarrollado con Godot 4.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="controls section-line">
+  <div class="wrap controls-grid">
+    <div class="reveal"><p class="kicker">CONTROLES</p><h2>Todo lo que necesitás para entrar.</h2><p>La configuración actual utiliza teclado y mouse. Los controles están diseñados para que moverse, iluminar e interactuar sea inmediato durante una persecución.</p></div>
+    <div class="keys stagger" aria-label="Controles del juego">
+      <div><kbd>W A S D</kbd><span>Moverse</span></div>
+      <div><kbd>MOUSE</kbd><span>Orientar / apuntar la linterna</span></div>
+      <div><kbd>E</kbd><span>Interactuar</span></div>
+      <div><kbd>F</kbd><span>Linterna</span></div>
+      <div><kbd>SHIFT</kbd><span>Correr</span></div>
+      <div><kbd>CTRL / C</kbd><span>Agacharse</span></div>
+      <div><kbd>ESPACIO</kbd><span>Omitir intro cuando está disponible</span></div>
+      <div><kbd>ESC</kbd><span>Pausa / menú</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="multiplayer" id="multijugador">
+  <div class="wrap">
+    <div class="section-heading reveal"><div><p class="kicker">MULTIJUGADOR</p><h2>La casa no tiene por qué tragarte solo.</h2></div><p>La versión actual permite jugar de 1 a 4 jugadores. Todos deben utilizar exactamente la misma versión del juego.</p></div>
+    <div class="multi-flow stagger">
+      <article><b>1</b><h3>Crear sala</h3><p>El anfitrión entra en <strong>Multijugador</strong> y crea una sala.</p></article>
+      <article><b>2</b><h3>Compartir código</h3><p>El juego genera un código de seis dígitos para compartir con el resto.</p></article>
+      <article><b>3</b><h3>Unirse</h3><p>Los invitados escriben su nombre, ingresan el código y aparecen en la sala.</p></article>
+      <article><b>4</b><h3>Entrar juntos</h3><p>Cuando todos están listos, el anfitrión inicia la partida.</p></article>
+    </div>
+    <div class="multi-note reveal"><strong>Modos anunciados actualmente:</strong> singleplayer, multijugador local y multijugador en red basado en sala/servidor.</div>
+  </div>
+</section>
+
+<section class="cinema" id="galeria">
+  <div class="wrap cinema-head"><div><p class="kicker reveal">CAPTURAS REALES</p><h2 class="reveal">Antes y después de cruzar la puerta.</h2></div><a class="text-link" href="capturas-hollow-house.html">Ver galería completa →</a></div>
+  <div class="cinema-grid stagger">
+    <figure class="frame"><img data-lightbox src="gameplay-yard.webp" alt="Alex y Sebas frente a la propiedad Hollow"><figcaption class="frame-label"><b>La propiedad Hollow</b><span>Exterior · noche</span></figcaption></figure>
+    <figure class="frame"><img data-lightbox src="gameplay-road.webp" alt="Alex y Sebas avanzando por la carretera"><figcaption class="frame-label"><b>North Road</b><span>Antes de entrar</span></figcaption></figure>
+    <figure class="frame"><img data-lightbox src="gameplay-house.webp" alt="Exploración dentro de Hollow House"><figcaption class="frame-label"><b>Dentro de la casa</b><span>Linterna · exploración</span></figcaption></figure>
+  </div>
+</section>
+
+<section class="quote"><p class="reveal">“Hollow Creek cerró el caso. <em>La casa no.</em>”</p></section>
+
+<section class="section section-line chronology"><div class="wrap timeline-wrap"><div class="reveal"><p class="kicker">CRONOLOGÍA</p><h2>Trece años de miedo.</h2><p class="lead">Los hechos que llevaron a Alex y Sebas hasta la propiedad no ocurrieron de una vez. Hollow Creek fue acumulando señales hasta que dejó de poder ignorarlas.</p></div><div class="timeline reveal">
+  <article class="timeline-item"><b>2013</b><h3>Los primeros homicidios.</h3><p>Dos muertes violentas en las afueras parecen no tener relación entre sí. Años después, los expedientes volverán a revisarse.</p></article>
+  <article class="timeline-item"><b>2014</b><h3>Cuatro desapariciones.</h3><p>Vehículos abandonados y últimas ubicaciones sitúan a las víctimas cerca del corredor norte. La propiedad Hollow es registrada y clausurada.</p></article>
+  <article class="timeline-item"><b>2015–2025</b><h3>Una década de silencio.</h3><p>La investigación se enfría. La casa queda cerrada. Los rumores crecen más rápido que las pruebas.</p></article>
+  <article class="timeline-item"><b>2026</b><h3>El patrón vuelve.</h3><p>Tres nuevas desapariciones en cuatro semanas. Dos autos sin conductor. Ninguna explicación convincente.</p></article>
+  <article class="timeline-item"><b>ESA NOCHE</b><h3>Alex y Sebas entran.</h3><p>Una tormenta cae sobre Hollow Creek. La puerta se cierra detrás de ellos.</p></article>
+</div></div></section>
+
+<section class="download" id="descargar"><div class="download-bg"></div><div class="download-content reveal"><p class="kicker">¿VAS A ENTRAR?</p><h2>Hollow House</h2><p>Descargá la versión actual para Windows desde la página oficial de itch.io. Podés jugar solo o entrar con hasta tres jugadores más.</p><a class="btn primary itch-link" href="#">Ir a itch.io →</a><div class="download-meta"><span>WINDOWS</span><span>ES / EN</span><span>1–4 JUGADORES</span><span>TECLADO + MOUSE</span></div></div></section>
 </main>
 <footer><div class="wrap footer-inner"><div>© <span id="year"></span> Hollow House</div><div class="footer-links"><a href="historia-hollow-house.html">Historia</a><a href="gameplay-hollow-house.html">Gameplay</a><a href="capturas-hollow-house.html">Capturas</a><a href="descargar-hollow-house.html">Descargar</a></div></div></footer>
-<div class="lightbox"><button aria-label="Cerrar">×</button><img alt=""></div><script src="site-config.js"></script><script src="script.js"></script>
+<div class="lightbox"><button aria-label="Cerrar">×</button><img alt=""></div>
+<script src="site-config.js"></script><script src="script.js"></script>
 </body></html>
