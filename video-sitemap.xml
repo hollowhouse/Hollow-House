@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://hollowhouse.github.io/Hollow-House/trailer.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hollowhouse.github.io/Hollow-House/trailer-poster.jpg</video:thumbnail_loc>
+      <video:title>Hollow House — Tráiler oficial</video:title>
+      <video:description>Avance de gameplay de Hollow House, juego de terror 2D de Garbino Santino para Windows.</video:description>
+      <video:content_loc>https://hollowhouse.github.io/Hollow-House/hollow-house-trailer.mp4</video:content_loc>
+    </video:video>
+  </url>
+</urlset>
