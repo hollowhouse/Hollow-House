@@ -7,5 +7,8 @@ window.HOLLOW_HOUSE_CONFIG = Object.freeze({
   contactEmail: 'hollowhouse54@gmail.com',
   // Fecha real del primer estreno del tráiler, solo si se confirma (ISO 8601).
   // No se inventa una fecha para los resultados enriquecidos de Google.
-  trailerFirstPublished: null
+  trailerFirstPublished: null,
+  gameLanguages: ['es', 'en', 'pt'],
+  gamePlatforms: ['Windows'],
+  siteName: 'Hollow House'
 });
