@@ -9,6 +9,6 @@ window.HOLLOW_HOUSE_CONFIG = Object.freeze({
   // No se inventa una fecha para los resultados enriquecidos de Google.
   trailerFirstPublished: null,
   gameLanguages: ['es', 'en', 'pt'],
-  gamePlatforms: ['Windows'],
+  gamePlatforms: ['Windows', 'Linux', 'Web browser'],
   siteName: 'Hollow House'
 });
