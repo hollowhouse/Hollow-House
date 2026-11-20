@@ -36,3 +36,13 @@
 @media(max-width:800px){.hero-content-approved{grid-template-columns:1fr;gap:24px;padding:28px 0 38px}.hero-banner{padding-top:4px}.hero-content-approved h2{font-size:40px}.hero-content-approved .eyebrow{font-size:10px}.special-grid{grid-template-columns:1fr}.special-card{padding-top:20px}.special-card h3{font-size:30px}.special-card p{max-width:680px}.hero-approved .hero-languages{font-size:9px}.hero-approved .hero-languages span{font-size:12px}}
 @media(max-width:540px){.hero-content-approved{padding-top:25px}.hero-content-approved h2{font-size:35px}.hero-decision .actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.hero-decision .btn{font-size:12px;padding:12px 9px}.feature-strip{line-height:1.6}.hero-approved .approved-banner{width:100%;height:auto}.hero-approved:after{display:none}.special-card h3{font-size:28px}}
 @media(prefers-reduced-motion:reduce){.special-card:hover{transform:none}}
+
+/* 0.13.40: preserve the original horror palette and responsive grid. */
+.hero-content-approved .release-headline{font:700 clamp(72px,10vw,136px)/.95 var(--serif);letter-spacing:-.06em;color:var(--text)}
+.release-headline span{display:block;font:12px/2 var(--mono);letter-spacing:.2em;color:var(--accent);margin-bottom:12px}
+.mode-section{background:linear-gradient(125deg,#10151a,#0a0c0f)}.hunt-section{background:linear-gradient(125deg,#1d1010,#0a0c0f)}
+.mode-panel{border:1px solid #5b403a;padding:clamp(24px,4vw,44px);background:#0a0c0faa;align-self:center}.mode-panel h3:not(:first-child){margin-top:20px}.mode-panel p{color:var(--muted);margin:16px 0 24px}
+.release-video{min-height:320px;aspect-ratio:16/9;display:grid;place-items:center;background:radial-gradient(ellipse at top,#35201c,#080a0c);border-bottom:1px solid var(--line)}
+.video-consent-panel{text-align:center;padding:30px;max-width:650px}.video-consent-panel p{margin:14px 0}.video-consent-panel .btn{margin-top:12px}.release-video iframe{display:block;width:100%;height:100%;border:0;aspect-ratio:16/9}
+#version-01340 details{margin-top:20px;border-top:1px solid var(--line);padding-top:14px}#version-01340 summary{cursor:pointer;color:var(--text)}
+@media(max-width:540px){.hero-content-approved .release-headline{font-size:84px}.release-video{aspect-ratio:auto;min-height:300px}.release-video:has(iframe){aspect-ratio:16/9;min-height:0}.video-consent-panel{padding:24px 18px}.video-consent-panel h3{font-size:26px}}

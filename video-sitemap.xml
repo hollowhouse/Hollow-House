@@ -3,10 +3,10 @@
   <url>
     <loc>https://hollowhouse.github.io/Hollow-House/trailer.html</loc>
     <video:video>
-      <video:thumbnail_loc>https://hollowhouse.github.io/Hollow-House/trailer-poster.jpg</video:thumbnail_loc>
-      <video:title>Hollow House — Tráiler oficial</video:title>
-      <video:description>Avance de gameplay de Hollow House, juego de terror 2D de Garbino Santino para Windows.</video:description>
-      <video:content_loc>https://hollowhouse.github.io/Hollow-House/hollow-house-trailer.mp4</video:content_loc>
+      <video:thumbnail_loc>https://hollowhouse.github.io/Hollow-House/hollow-house-portada.jpg</video:thumbnail_loc>
+      <video:title>Hollow House 0.13.40 — Video oficial</video:title>
+      <video:description>Video oficial de Hollow House 0.13.40, disponible en Windows, Linux y navegador.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/xGU8IVj4Clg</video:player_loc>
     </video:video>
   </url>
 </urlset>

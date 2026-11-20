@@ -88,20 +88,12 @@
     host.querySelector('video')?.pause();
     const frame = document.createElement('iframe');
     frame.className = 'youtube-frame';
-    frame.src = 'https://www.youtube-nocookie.com/embed/M0I5IEnW0HI?rel=0';
-    frame.title = 'Tráiler oficial de Hollow House en YouTube';
-    frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    frame.src = 'https://www.youtube-nocookie.com/embed/xGU8IVj4Clg?rel=0&autoplay=0';
+    frame.title = 'Hollow House 0.13.40: video oficial en YouTube';
+    frame.allow = 'encrypted-media; picture-in-picture; fullscreen';
     frame.referrerPolicy = 'strict-origin-when-cross-origin';
     frame.allowFullscreen = true;
     host.replaceChildren(frame);
     yt.hidden = true;
   });
-  // Solo se emite VideoObject cuando se dispone de una fecha real confirmada.
-  const firstPublished = window.HOLLOW_HOUSE_CONFIG?.trailerFirstPublished;
-  if (document.body.dataset.page === 'trailer' && firstPublished && /^\d{4}-\d{2}-\d{2}/.test(firstPublished) && !Number.isNaN(Date.parse(firstPublished))) {
-    const base = 'https://hollowhouse.github.io/Hollow-House/';
-    const schema = document.createElement('script'); schema.type = 'application/ld+json';
-    schema.textContent = JSON.stringify({ '@context':'https://schema.org', '@type':'VideoObject', name:'Hollow House — Tráiler oficial', description:'Tráiler de gameplay del juego de terror 2D Hollow House, ambientado en Hollow Creek.', thumbnailUrl:base+'trailer-poster.jpg', uploadDate:firstPublished, duration:'PT27.52S', contentUrl:base+'hollow-house-trailer.mp4', embedUrl:'https://www.youtube.com/embed/M0I5IEnW0HI' });
-    document.head.appendChild(schema);
-  }
 })();
